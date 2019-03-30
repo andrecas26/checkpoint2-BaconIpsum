@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    margins: 10 
+}
+
+.team{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+iframe{
+    display:block;
+}
+
+.photo{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: horizontal;
+   }
+  div{
+    width: 30vw;
+    text-align: center;
+  }
+
