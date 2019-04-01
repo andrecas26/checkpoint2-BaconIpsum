@@ -3,7 +3,6 @@
 body{
 margin-left: 10px;
 margin-right: 10px; 
-background-color: whitesmoke;
 }
 .about{
     font-size: 12px;
@@ -16,11 +15,13 @@ background-color: whitesmoke;
 }
 .name{
     margin-top: 75px;
+    color:#f46731;
 }
 iframe{
     width: 80vw;
     height: auto;
     margin-top: 100px;
+    border: solid 10px;
 }
 
 .photo{
@@ -35,6 +36,9 @@ iframe{
 div{
     width: 30vw;
     text-align: center;
+}
+.images{
+    color:rgb(51,168,221);
 }
 @media (min-width: 992px) {
 
