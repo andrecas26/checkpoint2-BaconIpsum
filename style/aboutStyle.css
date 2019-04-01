@@ -1,25 +1,55 @@
-body{
-    text-align: center;
-    margins: 10 
+@media (min-width: 576px) {
 }
-
+body{
+margin-left: 10px;
+margin-right: 10px; 
+background-color: whitesmoke;
+}
+.about{
+    font-size: 12px;
+    width: 90%;
+}
 .team{
     display: flex;
     margin-bottom: 20px;
 
 }
+.name{
+    margin-top: 75px;
+}
 iframe{
-    display:block;
+    width: 80vw;
+    height: auto;
+    margin-top: 100px;
 }
 
 .photo{
-    width: 30vw;
-    height: 30vh;
+    width: 80vw;
+    height: auto;
     display: flex;
     flex-direction: horizontal;
-   }
-  div{
+}
+.members{
+    margin-bottom: 75px;
+}
+div{
     width: 30vw;
     text-align: center;
-  }
+}
+@media (min-width: 992px) {
 
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+.photo{
+    width: 30 vw;
+    height: auto;
+}
+iframe{
+    width: 50vw;
+    height: auto;
+}
+h1.images{
+    text-align: center;
+}}
